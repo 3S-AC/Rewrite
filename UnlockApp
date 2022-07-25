@@ -1,0 +1,9 @@
+# >  /*  APP解锁vip！
+# >  自用 更新时间 2022.07.25
+
+# > SpotifyPro（2022-02-15）by app2smile
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+# > Hyperweb (2022-01-25) by ddgksf2013
+^https://zy6kcqa01a.execute-api.us-east-2.amazonaws.com/prod/verifyReceipt url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/hyperweb.js
+# > Appraven美化（2022-03-23）by ddgksf2013
+^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/appraven.js
