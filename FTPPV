@@ -1,0 +1,8 @@
+[mitm]
+
+hostname = api.revenuecat.com
+
+[rewrite_local]
+
+# FTPPV Unlock
+^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$ url script-echo-response https://raw.githubusercontent.com/gloryofchina/Script/main/FTPPV.js
